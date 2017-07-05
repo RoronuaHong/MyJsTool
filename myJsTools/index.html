@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 500px;
+            background: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box">
+
+    </div>
+    <script src="./EventUtil.js"></script>
+    <script src="./CookieUtil.js"></script>
+    <script>
+        var aaa = document.getElementById("box");
+        EventUtil.addEvent(aaa, "click", function(event) {
+            var target = EventUtil.getTarget(event)
+            aaa.textContent = target;
+        })
+    </script>
+</body>
+</html>
