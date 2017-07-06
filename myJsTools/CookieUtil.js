@@ -1,11 +1,15 @@
 ;(function(win, doc) {
-
     /**
+     * @description 获取cookie
      * @type {{get: 获取cookie, set: 设置cookie, unset: 删除cookie}}
      * @author slim。
      * @date 2017.07.05
      */
     var CookieUtil = {
+        /**
+         * @param name 需要获取的cookie名字
+         * @returns cookieValue 返回的value
+         */
         get: function(name) {
 
             //设置需要查找的cookie名字
@@ -27,10 +31,19 @@
                 }
 
                 //使用substring来截取字符串并转码赋值给cookieValue
-                cookieValue = encodeURIComponent(doc.cookie.substring(cookieStart + cookieName.length, cookieEnd));
+                cookieValue = decodeURIComponent(doc.cookie.substring(cookieStart + cookieName.length, cookieEnd));
             }
             return cookieValue;
         },
+        /**
+         *
+         * @param name      名字
+         * @param value     值
+         * @param expires   过期时间
+         * @param path      路径
+         * @param domain    域
+         * @param secure    SSL连接
+         */
         set: function(name, value, expires, path, domain, secure) {
             var cookieText = encodeURIComponent(name) + "=" + encodeURIComponent(value);
 
@@ -48,6 +61,13 @@
 
             doc.cookie = cookieText;
         },
+        /**
+         *
+         * @param name      cookie的名字
+         * @param path      路径
+         * @param domain    域
+         * @param secure    SSL连接
+         */
         unset: function(name, path, domain, secure) {
 
             //通过设置过期时间达到删除目的

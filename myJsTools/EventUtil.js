@@ -1,4 +1,10 @@
 ;(function(win, doc) {
+    /**
+     * @description 事件兼容方案
+     * @type {{getEvent: getEvent, getTarget: getTarget, preventDefault: preventDefault, stopPropagation: stopPropagation, addEvent: addEvent, removeEvent: removeEvent}}
+     * @author slim。
+     * @date 2017.07.05
+     */
     var EventUtil = {
 
         //获取事件对象

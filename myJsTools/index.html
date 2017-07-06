@@ -17,12 +17,10 @@
     </div>
     <script src="./EventUtil.js"></script>
     <script src="./CookieUtil.js"></script>
+    <script src="./SubCookieUtil.js"></script>
     <script>
-        var aaa = document.getElementById("box");
-        EventUtil.addEvent(aaa, "click", function(event) {
-            var target = EventUtil.getTarget(event)
-            aaa.textContent = target;
-        })
+        CookieUtil.set("names", "name1=123&name2=456");
+        console.log(SubCookieUtil.get("names", "name2"));
     </script>
 </body>
 </html>
