@@ -1,3 +1,7 @@
+<h1>JavaScript工具库</h1></br>
+===========================================
+
+
 1.事件兼容EventUtil：</br>
 	1.getEvent: 获取event对象。</br>
 	2.getTarget： 获取event.target对象。</br>
