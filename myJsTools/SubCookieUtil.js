@@ -1,5 +1,10 @@
 ;(function(win, doc) {
-
+    /**
+     * @description 获取子cookie
+     * @type {{getAll: getAll, get: get, setAll: setAll, set: set, unsetAll: unsetAll, unset: unset}}
+     * @author slim。
+     * @date 2017.07.06
+     */
     var SubCookieUtil = {
         /**
          *
@@ -154,7 +159,7 @@
     } else if(typeof define == "function" && define.amd) {
         define([], function() {
             return SubCookieUtil;
-        })
+        });
     } else {
         win.SubCookieUtil = SubCookieUtil;
     }
