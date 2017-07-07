@@ -24,7 +24,7 @@ JavaScript工具库
 		5.unsetAll: 删除全部子cookie
 		6.unset: 删除一个子cookie
 		
-### 3.检测浏览器类型:
+### 4.检测浏览器类型:
 		1.isAndroid: 设备是否为Android
 		2.isiPhone: 设备是否为iPhone
 		3.isiPad: 设备是否为iPad
