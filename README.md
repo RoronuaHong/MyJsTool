@@ -2,9 +2,9 @@ JavaScript工具库
 ===========================================
 
 
-1.事件兼容EventUtil：
--------------------------------------------
-### 1.getEvent: 获取event对象。</br>
+### 1.事件兼容EventUtil：
+
+		1.getEvent: 获取event对象。</br>
 ### 2.getTarget： 获取event.target对象。</br>
 ### 3.preventDefault：阻止默认事件。</br>
 ### 4.stopPropagation：阻止冒泡事件。</br>
