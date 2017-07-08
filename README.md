@@ -37,3 +37,7 @@ JavaScript工具库
 		10.isOpera: Opera内核
 		11.isWebkit: 苹果、谷歌内核
 		12.isFirefox: 火狐内核
+
+### 5.函数的节流与去抖:
+        1.debounce: 去抖
+        2.throttle: 节流

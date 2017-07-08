@@ -1,6 +1,18 @@
 ;(function(win, doc) {
 
+    /**
+     * @description 函数的节流和去抖
+     * @type {{debounce: debounce, throttle: throttle}}
+     * @author slim。
+     * @date 2017.07.08
+     */
     var ThrottleUtil = {
+        /**
+         * @param fn            相应的执行函数
+         * @param context       作用域
+         * @param delay         延迟的时间
+         * @returns {Function}
+         */
         debounce: function(fn, context, delay) {
             return function() {
                 var args = arguments;
@@ -11,6 +23,14 @@
                 }, delay);
             }
         },
+        /**
+         *
+         * @param fn            相应的执行函数
+         * @param context       作用域
+         * @param duraction     间隔多长时间执行
+         * @param delay         延迟的时间
+         * @returns {Function}
+         */
         throttle: function(fn, context, duraction, delay) {
              var startTime = +new Date();
 
