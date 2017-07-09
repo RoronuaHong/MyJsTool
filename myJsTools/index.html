@@ -210,10 +210,9 @@
     <script src="./SubCookieUtil.js"></script>
     <script src="./UserAgentUtil.js"></script>
     <script src="./ThrottleUtil.js"></script>
+    <script src="./GetQueryString.js"></script>
     <script>
-        window.onscroll = ThrottleUtil.throttle(function() {
-            console.log(1)
-        }, window, 1000, 500);
+        console.log(GetQueryString.getAll());
     </script>
 </body>
 </html>

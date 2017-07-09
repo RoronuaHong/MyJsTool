@@ -38,6 +38,10 @@ JavaScript工具库
 		11.isWebkit: 苹果、谷歌内核
 		12.isFirefox: 火狐内核
 
-### 5.函数的节流与去抖:
+### 5.函数的节流与去抖ThrottleUtil:
         1.debounce: 去抖
         2.throttle: 节流
+
+### 6.获取字符串GetQueryString:
+        1.get(name): 根据name获取value
+        2.getAll: 获取全部字符串，返回该对象
