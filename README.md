@@ -45,3 +45,6 @@ JavaScript工具库
 ### 6.获取字符串GetQueryString:
         1.get(name): 根据name获取value
         2.getAll: 获取全部字符串，返回该对象
+
+### 7.延迟加载图片lazyLoad:
+        1.init: 返回一个函数，判断元素是否在可视区域内，需要事件触发。
