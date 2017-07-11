@@ -1,5 +1,13 @@
 ;(function(win, doc) {
 
+    /**
+     * @attrs 元素名称
+     * @attrValue 元素值
+     * @tagName 标签名
+     * @type {{init: init}}
+     * @author slim。
+     * @date 2017.07.12
+     */
     var GetElementByAttribute = {
         init: function(attrs, attrValue, tagName) {
             var newItem = [];
