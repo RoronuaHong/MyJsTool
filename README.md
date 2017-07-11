@@ -48,3 +48,6 @@ JavaScript工具库
 
 ### 7.延迟加载图片lazyLoad:
         1.init: 返回一个函数，判断元素是否在可视区域内，需要事件触发。
+
+### 8.根据元素属性值返回相应标签集合GetElementByAttribute:
+        1.init(attrs, attrValue, tagName): 传入属性，属性值，标签名返回相应标签集合

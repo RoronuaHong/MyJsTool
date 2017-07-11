@@ -24,7 +24,6 @@
             }
         },
         /**
-         *
          * @param fn            相应的执行函数
          * @param context       作用域
          * @param duraction     间隔多长时间执行

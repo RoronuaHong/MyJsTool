@@ -595,18 +595,9 @@
     <script src="../EventUtil.js"></script>
     <script src="../ThrottleUtil.js"></script>
     <script src="../lazyLoad.js"></script>
+    <script src="../GetElementByAttribute.js"></script>
     <script>
-
-        window.onload = function() {
-            lazyLoad.init()();
-            EventUtil.addEvent(document, "scroll", ThrottleUtil.throttle(lazyLoad.init(), window, 600, 500));
-        }
-
-        var aaa = document.createElement("img");
-        aaa.src = "./loading.gif";
-        aaa.className = "box";
-        aaa.setAttribute("data-src", "./choujiangbg.png");
-        document.body.appendChild(aaa);
+        console.log(GetElementByAttribute.init("class", "box", "div"));
     </script>
 </body>
 </html>
