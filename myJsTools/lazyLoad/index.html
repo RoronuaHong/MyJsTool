@@ -596,8 +596,26 @@
     <script src="../ThrottleUtil.js"></script>
     <script src="../lazyLoad.js"></script>
     <script src="../GetElementByAttribute.js"></script>
+    <script src="../Ajax.js"></script>
+    <script src="../RepeatArray.js"></script>
     <script>
-        console.log(GetElementByAttribute.init("class", "box", "div"));
+//        Ajax({
+//            url: "http://wx.cheertea.com/goods!getGoodsListByTagId.do?tag_id=65",
+//            type: "post",
+//            data: {
+//                datas: 111
+//            },
+//            success: function(data) {
+//                console.log(data);
+//            },
+//            error: function(data) {
+//                console.log(data);
+//            }
+//        });
+
+        var arr = [5, 4, 8, 7, 9, 1, 0, 5, 3, 2, 6, 3, 5, 7, 8, 4];
+
+        console.log(RepeatArray.indexOfFun(arr));
     </script>
 </body>
 </html>

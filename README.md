@@ -51,3 +51,10 @@ JavaScript工具库
 
 ### 8.根据元素属性值返回相应标签集合GetElementByAttribute:
         1.init(attrs, attrValue, tagName): 传入属性，属性值，标签名返回相应标签集合
+
+### 9.数组去重RepeatArray:
+        1.doubleLoop: 利用双重循环去重
+        2.objectRepeat: 利用对象唯一性去重
+        3.indexOfFun: 利用filter和indexOf去重
+        4.fromFun: 利用ES6的Array.from和new Set()去重
+        5.spliceRepeat: 利用splice去重
