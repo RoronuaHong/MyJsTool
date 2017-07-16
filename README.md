@@ -74,7 +74,7 @@ JavaScript工具库
             url: "/goods!getGoodsList.do",      //请求的pathname
             crossDomain: false,                 //是否允许跨域，默认为false
             xhrFields: {
-                withCredentials: false           //是否允许携带cookie
+                withCredentials: false           //是否允许携带cookie，默认为false
             },
             type: "get",                        //请求方式"GET"和"POST",默认为"GET"
             dataType: "json",                   //请求的类型，默认为"json"
