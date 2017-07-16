@@ -58,3 +58,12 @@ JavaScript工具库
         3.indexOfFun: 利用filter和indexOf去重
         4.fromFun: 利用ES6的Array.from和new Set()去重
         5.spliceRepeat: 利用splice去重
+
+### 10.时间戳工具TimestampUtil:
+        1.getAll({
+            times: 1500045453564,       //传入13位毫秒数
+            separator: "-",             //默认为"-"样式进行分割
+            typeofs: ""                 //默认为全部输出，可选"date"和"year"
+        });
+
+        2.get(timer):获取年月日时分秒

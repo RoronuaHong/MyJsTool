@@ -598,6 +598,7 @@
     <script src="../GetElementByAttribute.js"></script>
     <script src="../Ajax.js"></script>
     <script src="../RepeatArray.js"></script>
+    <script src="../TimestampUtil.js"></script>
     <script>
 //        Ajax({
 //            url: "http://wx.cheertea.com/goods!getGoodsListByTagId.do?tag_id=65",
@@ -613,9 +614,13 @@
 //            }
 //        });
 
-        var arr = [5, 4, 8, 7, 9, 1, 0, 5, 3, 2, 6, 3, 5, 7, 8, 4];
-
-        console.log(RepeatArray.indexOfFun(arr));
+//        var timedemo = TimestampUtil.getAll({
+//            times: 1500045453564,
+//            separator: "-",
+//            typeofs: ""
+//        });
+        var timedemo = TimestampUtil.get(1500045453564);
+        console.log(timedemo);
     </script>
 </body>
 </html>
