@@ -603,6 +603,10 @@
         Ajax({
             hosts: "http://test.cheertea.com",
             url: "/goods!getGoodsListByTagId.do?tag_id=65",
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
             type: "get",
             dataType: "json",
 //            data: {

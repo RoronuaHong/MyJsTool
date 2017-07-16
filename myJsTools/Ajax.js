@@ -9,8 +9,8 @@
         var defaults = {
             hosts: Object.hosts,
             url: Object.hosts + Object.url,
-            crossDomain: Object.crossDomain || true,
-            xhrFields: Object.xhrFields || { withCredentials: true },
+            crossDomain: Object.crossDomain || false,
+            xhrFields: Object.xhrFields || { withCredentials: false },
             type: (Object.type || "get").toUpperCase(),
             dataType: Object.dataType || "json",
             data: formatParams(Object.data || {}),
