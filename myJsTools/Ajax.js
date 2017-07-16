@@ -55,6 +55,9 @@
 
         //封装get方法
         if(defaults.type === "GET") {
+
+            defaults.url += defaults.url.indexOf("?") > -1 ? "&" : "?";
+
             //开启连接,添加参数
             xhr.open(defaults.type, defaults.url + "?" + defaults.data, defaults.async);
             xhr.send(null);

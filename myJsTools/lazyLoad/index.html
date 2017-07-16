@@ -601,14 +601,13 @@
     <script src="../TimestampUtil.js"></script>
     <script>
         Ajax({
-            hosts: "http://www.xxx.com",
-            url: "/goods!getGoodsList.do",
+            hosts: "http://test.cheertea.com",
+            url: "/goods!getGoodsListByTagId.do?tag_id=65",
             type: "get",
             dataType: "json",
-            async: true,
-            data: {
-                tag_id: 01
-            },
+//            data: {
+//                tag_id: 65
+//            },
             success: function(data) {
                 console.log(JSON.parse(data));
             },
