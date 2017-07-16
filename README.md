@@ -67,3 +67,21 @@ JavaScript工具库
         });
 
         2.get(timer):获取年月日时分秒
+
+### 11.请求数据Ajax:
+        1.Ajax({
+            hosts: "http://www.xxx.com",        //请求的域名
+            url: "/goods!getGoodsList.do",      //请求的pathname
+            type: "get",                        //请求方式"GET"和"POST",默认为"GET"
+            dataType: "json",                   //请求的类型，默认为"json"
+            async: false,                       //是否同步，默认为false
+            data: {                             //请求的数据
+              tag_id: 01
+            },
+            success: function(data) {           //成功的回调
+              console.log(JSON.parse(data));
+            },
+            error: function(data) {             //失败的回调
+              console.log(data);
+            }
+        });

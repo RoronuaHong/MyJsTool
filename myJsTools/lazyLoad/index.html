@@ -600,27 +600,30 @@
     <script src="../RepeatArray.js"></script>
     <script src="../TimestampUtil.js"></script>
     <script>
-//        Ajax({
-//            url: "http://wx.cheertea.com/goods!getGoodsListByTagId.do?tag_id=65",
-//            type: "post",
-//            data: {
-//                datas: 111
-//            },
-//            success: function(data) {
-//                console.log(data);
-//            },
-//            error: function(data) {
-//                console.log(data);
-//            }
-//        });
+        Ajax({
+            hosts: "http://www.xxx.com",
+            url: "/goods!getGoodsList.do",
+            type: "get",
+            dataType: "json",
+            async: true,
+            data: {
+                tag_id: 01
+            },
+            success: function(data) {
+                console.log(JSON.parse(data));
+            },
+            error: function(data) {
+                console.log(data);
+            }
+        });
 
 //        var timedemo = TimestampUtil.getAll({
 //            times: 1500045453564,
 //            separator: "-",
 //            typeofs: ""
 //        });
-        var timedemo = TimestampUtil.get(1500045453564);
-        console.log(timedemo);
+//        var timedemo = TimestampUtil.get(1500045453564);
+//        console.log(timedemo);
     </script>
 </body>
 </html>
