@@ -89,3 +89,19 @@ JavaScript工具库
               console.log(data);
             }
         });
+
+### 12.跨域请求JSONP:
+    1.JSONP({
+        url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",    //请求的域名
+        data: {                                                         //请求的数据
+          wd: "神秘海域"
+        },
+        jsonp: "cb",                                                    //参数的名称
+        callback: "responeMethod",                                      //回调的方法名
+        success: function(data) {                                       //成功的回调
+            console.log(data);
+        },
+        error: function(data) {                                         //失败的回调
+            console.log(data);
+        }
+    });

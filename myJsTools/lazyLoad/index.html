@@ -599,34 +599,29 @@
     <script src="../Ajax.js"></script>
     <script src="../RepeatArray.js"></script>
     <script src="../TimestampUtil.js"></script>
+    <script src="../JSONP.js"></script>
     <script>
-        Ajax({
-            hosts: "http://test.cheertea.com",
-            url: "/goods!getGoodsListByTagId.do?tag_id=65",
-            crossDomain: true,
-            xhrFields: {
-                withCredentials: true
+        JSONP({
+            url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+            data: {
+                wd: "神秘海域"
             },
-            type: "get",
-            dataType: "json",
-//            data: {
-//                tag_id: 65
-//            },
+            jsonp: "cb",
+            callback: "responeMethod",
             success: function(data) {
-                console.log(JSON.parse(data));
-            },
-            error: function(data) {
                 console.log(data);
             }
         });
 
-//        var timedemo = TimestampUtil.getAll({
-//            times: 1500045453564,
-//            separator: "-",
-//            typeofs: ""
-//        });
-//        var timedemo = TimestampUtil.get(1500045453564);
-//        console.log(timedemo);
+//        //实现简单的JSONP功能
+//        var script = document.createElement("script");
+//        var head = document.getElementsByTagName("head")[0];
+//        script.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=神秘海域&cb=repsonseMothod";
+//        head.appendChild(script);
+//
+//        function repsonseMothod(response) {
+//            console.log(response);
+//        }
     </script>
 </body>
 </html>
