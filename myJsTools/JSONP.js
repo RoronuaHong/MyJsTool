@@ -1,4 +1,10 @@
 ;(function(win, doc) {
+    /**
+     * @constructor JSONP请求
+     * @param Object
+     * @author slim。
+     * @date 2017.07.18
+     */
     var JSONP = function(Object) {
         var defaults = {
             url: Object.url || "",
