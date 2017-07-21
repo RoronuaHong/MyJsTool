@@ -592,36 +592,9 @@
             <img src="./loading.gif" alt="" data-src="./choujiangbg.png">
         </div><!--<br>-->
     </div>
-    <script src="../EventUtil.js"></script>
-    <script src="../ThrottleUtil.js"></script>
-    <script src="../lazyLoad.js"></script>
-    <script src="../GetElementByAttribute.js"></script>
-    <script src="../Ajax.js"></script>
-    <script src="../RepeatArray.js"></script>
-    <script src="../TimestampUtil.js"></script>
-    <script src="../JSONP.js"></script>
+    <script src="../CommonRegExp.js"></script>
     <script>
-        JSONP({
-            url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
-            data: {
-                wd: "神秘海域"
-            },
-            jsonp: "cb",
-            callback: "responeMethod",
-            success: function(data) {
-                console.log(data);
-            }
-        });
-
-//        //实现简单的JSONP功能
-//        var script = document.createElement("script");
-//        var head = document.getElementsByTagName("head")[0];
-//        script.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=神秘海域&cb=repsonseMothod";
-//        head.appendChild(script);
-//
-//        function repsonseMothod(response) {
-//            console.log(response);
-//        }
+        console.log(commonRegExp.isUser("a18606977713", 5, 20));
     </script>
 </body>
 </html>

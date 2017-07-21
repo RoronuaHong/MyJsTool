@@ -105,3 +105,11 @@ JavaScript工具库
             console.log(data);
         }
     });
+
+### 13.常用正则匹配:
+        1.isTelPhone(string): 检测手机号
+        2.isMail(string): 检测邮箱
+        3.isIdCard(string): 检测身份证
+        4.isChinese(string): 检测中文
+        5.isUser(string, min, max): 检测用户名
+        6.isPwd(string, min, max): 检测密码
