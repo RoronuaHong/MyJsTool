@@ -1,5 +1,4 @@
 ;(function(win, doc) {
-
     /**
      * @description 常用正则
      * @author slim。

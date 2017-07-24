@@ -106,10 +106,18 @@ JavaScript工具库
         }
     });
 
-### 13.常用正则匹配:
+### 13.常用正则匹配CommonRegExp:
         1.isTelPhone(string): 检测手机号
         2.isMail(string): 检测邮箱
         3.isIdCard(string): 检测身份证
         4.isChinese(string): 检测中文
         5.isUser(string, min, max): 检测用户名
         6.isPwd(string, min, max): 检测密码
+
+### 14.倒计时CountDownUtil:
+        1.init(ele, eleText, otherText, times, duraction):
+            ele: 标签元素
+            eleText: 倒计时时的文本内容
+            otherText: 倒计时结束时的文本内容
+            times: 倒计时的时间
+            duraction: 倒计时的间隔时间
