@@ -121,3 +121,7 @@ JavaScript工具库
             otherText: 倒计时结束时的文本内容
             times: 倒计时的时间
             duraction: 倒计时的间隔时间
+
+### 15.倒计时WindowUtil:
+        1.ViewPort.getWidth: 获取浏览器的宽度
+        2.ViewPort.getHeight: 获取浏览器的高度
