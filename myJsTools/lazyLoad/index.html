@@ -610,15 +610,21 @@
     <!--</div>-->
     <div class="btn" id="btns">点击我</div>
     <!--<script src="../CommonRegExp.js"></script>-->
-    <script src="../CountDownUtil.js"></script>
+    <script src="../Ajax.js"></script>
     <script>
-//        var ele = document.querySelector(".btn");
-        var eles = document.getElementById("btns");
-//        ele.addEventListener("click", function() {
-//            CountDownUtil.init(this, "什么", "重新点击", 5, 1000);
-//        }, false);
-        eles.attachEvent("onclick", function() {
-            CountDownUtil.init(eles, "什么", "重新点击", 5, 1000);
+        Ajax({
+            hosts: "http://wx.cheertea.com",
+            url: "member/login!isLogin.do",
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function(data) {
+                console.log(data);
+            },
+            error: function(data) {
+                console.log(data);
+            }
         });
     </script>
 </body>

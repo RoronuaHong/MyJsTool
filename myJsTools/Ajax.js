@@ -8,7 +8,7 @@
     var Ajax = function(Object) {
         var defaults = {
             hosts: Object.hosts,
-            url: Object.hosts + Object.url,
+            url: Object.hosts + "/" + Object.url,
             crossDomain: Object.crossDomain || false,
             xhrFields: Object.xhrFields || { withCredentials: false },
             type: (Object.type || "get").toUpperCase(),
@@ -59,7 +59,7 @@
             defaults.url += defaults.url.indexOf("?") > -1 ? "&" : "?";
 
             //开启连接,添加参数
-            xhr.open(defaults.type, defaults.url + "?" + defaults.data, defaults.async);
+            xhr.open(defaults.type, defaults.url + defaults.data, defaults.async);
             xhr.send(null);
         }
 
