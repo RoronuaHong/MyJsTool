@@ -53,6 +53,9 @@
             }
         }
 
+        //允许cookie修改
+        xhr.withCredentials = defaults.xhrFields.withCredentials;
+
         //封装get方法
         if(defaults.type === "GET") {
 
@@ -60,6 +63,8 @@
 
             //开启连接,添加参数
             xhr.open(defaults.type, defaults.url + defaults.data, defaults.async);
+
+
             xhr.send(null);
         }
 
