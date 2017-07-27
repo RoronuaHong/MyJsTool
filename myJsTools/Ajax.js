@@ -9,7 +9,7 @@
         var defaults = {
             hosts: Object.hosts,
             url: Object.hosts + "/" + Object.url,
-            crossDomain: Object.crossDomain || false,
+            // crossDomain: Object.crossDomain || false,
             xhrFields: Object.xhrFields || { withCredentials: false },
             type: (Object.type || "get").toUpperCase(),
             dataType: Object.dataType || "json",
