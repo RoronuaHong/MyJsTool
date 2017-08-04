@@ -46,7 +46,7 @@
 
         },
         init: function() {
-            return this.isVisible();
+            return this.isVisible()();
         }
     }
 
