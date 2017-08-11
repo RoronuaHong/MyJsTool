@@ -13,9 +13,12 @@
         },
         /*将手机号中间4位替换为*号*/
         telPhoneChange: function(string) {
-            var veg = /^(.)(.)(.).+(.)(.)(.)(.)(.)$/gi;
-            !!string.match(veg) && (string = string.replace(veg, "$1$2$3****$5$6$7$8"));
 
+            if(typeof string === "string" && !!string) {
+                var veg = /^(.)(.)(.).+(.)(.)(.)(.)(.)$/gi;
+                !!string.match(veg) && (string = string.replace(veg, "$1$2$3****$5$6$7$8"));
+            }
+            
             return string;
         },
         /*检测邮箱*/
