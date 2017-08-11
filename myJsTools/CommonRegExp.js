@@ -11,6 +11,13 @@
 
             return veg.test(strings);
         },
+        /*将手机号中间4位替换为*号*/
+        telPhoneChange: function(string, num) {
+            var veg = /^(.)(.)(.).+(.)(.)(.)(.)(.)$/gi;
+            !!string.match(veg) && (string = string.replace(veg, "$1$2$3****$5$6$7$8"));
+
+            return string;
+        },
         /*检测邮箱*/
         isMail: function(strings) {
             var veg = /^[\w.-]+@[0-9a-zA-Z]+(\.[a-zA-Z]{2,4}){1,2}$/gi;

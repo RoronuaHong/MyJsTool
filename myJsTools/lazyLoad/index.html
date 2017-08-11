@@ -609,35 +609,11 @@
         <!--</div>&lt;!&ndash;<br>&ndash;&gt;-->
     <!--</div>-->
     <div class="btn" id="btns">点击我</div>
-    <!--<script src="../CommonRegExp.js"></script>-->
+    <script src="../CommonRegExp.js"></script>
     <script src="../Ajax.js"></script>
     <script>
-//        /*使用async/await*/
-        function getAjax() {
-            return 1;
-        }
-
-        function getOther(data) {
-            console.log(data);
-            return 2;
-        }
-
-        function getOthers() {
-            console.log();
-            return 4;
-        }
-
-        var aaa = (async () => {
-            try {
-                var data = await getAjax();
-                var datas = await getOthers();
-                return await getOther(data, datas);
-            } catch(e) {
-                console.error(e);
-            }
-        })();
-
-        console.log(aaa)
+        var a = commonRegExp.telPhoneChange("18606977713", 4);
+        console.log(a);
     </script>
 </body>
 </html>
