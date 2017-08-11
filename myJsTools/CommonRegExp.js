@@ -12,7 +12,7 @@
             return veg.test(strings);
         },
         /*将手机号中间4位替换为*号*/
-        telPhoneChange: function(string, num) {
+        telPhoneChange: function(string) {
             var veg = /^(.)(.)(.).+(.)(.)(.)(.)(.)$/gi;
             !!string.match(veg) && (string = string.replace(veg, "$1$2$3****$5$6$7$8"));
 
