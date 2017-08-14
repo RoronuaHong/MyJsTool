@@ -1,5 +1,4 @@
 ;(function(win, doc) {
-
     /**
      * @description 延迟加载图片
      * @type {{getItem: getItem, isVisible: isVisible, init: init}}

@@ -1,10 +1,16 @@
 ;(function(win, doc) {
+    /**
+     * @description 新增栈类
+     * @type ele 要添加的元素
+     * @author slim。
+     * @date 2017.08.14
+     */
     var Stack = function() {
         var items = [];
 
         /*增加元素方法*/
         this.push = function(ele) {
-            items.push(ele)
+            items.push(ele);
         }
 
         /*移除栈顶元素*/
