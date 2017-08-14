@@ -610,10 +610,11 @@
     <!--</div>-->
     <div class="btn" id="btns">点击我</div>
     <script src="../CommonRegExp.js"></script>
-    <script src="../Ajax.js"></script>
+    <script src="../Stack.js"></script>
     <script>
-        var a = commonRegExp.telPhoneChange("18606977713", 4);
-        console.log(a);
+       var stack = new Stack();
+       stack.push(12);
+       console.log(stack.peek());
     </script>
 </body>
 </html>

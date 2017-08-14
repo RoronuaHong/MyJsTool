@@ -18,7 +18,7 @@
                 var veg = /^(.)(.)(.).+(.)(.)(.)(.)(.)$/gi;
                 !!string.match(veg) && (string = string.replace(veg, "$1$2$3****$5$6$7$8"));
             }
-            
+
             return string;
         },
         /*检测邮箱*/

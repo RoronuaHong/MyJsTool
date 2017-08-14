@@ -124,3 +124,12 @@ JavaScript工具库
 ### 15.倒计时WindowUtil:
         1.ViewPort.getWidth: 获取浏览器的宽度
         2.ViewPort.getHeight: 获取浏览器的高度
+
+### 16.实现栈的方法：
+    1.push(ele): 添加元素
+    2.pop: 移除栈顶元素
+    3.peek: 查看栈顶元素
+    4.isEmpty: 栈是否为空
+    5.size: 查看栈的大小
+    6.clear: 清空栈
+    7.print: 查看栈内元素
