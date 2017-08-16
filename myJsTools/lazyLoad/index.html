@@ -611,9 +611,74 @@
     <div class="btn" id="btns">点击我</div>
     <script src="../CommonRegExp.js"></script>
     <script src="../Stack.js"></script>
-    <script src="../baseConverter.js"></script>
     <script>
-        console.log(baseConverter(10, 10));
+        //定义一个栈类
+        var Stack = function() {
+            //设置一个存储数据的数组
+            var items = [];
+
+            //添加方法
+            this.push = function(ele) {
+                items.push(ele);
+            }
+
+            //删除栈顶方法
+            this.pop = function() {
+                return items.pop();
+            }
+
+            //查看栈顶元素
+            this.peek = function() {
+                return items[items.length - 1];
+            }
+
+            //栈是否为空
+            this.isEmpty = function() {
+                return items.length == 0;
+            }
+
+            //返回栈的大小
+            this.size = function() {
+                return items.length;
+            }
+
+            //清空栈
+            this.clear = function() {
+                items = [];
+            }
+        }
+
+        //实现十进制转换其他进制的方法
+        function baseConverter(decNumber, number) {
+
+            //定义栈内元素
+            var remStack = new Stack(),
+                rem,
+                baseString = "",
+                digits = "0123456789ABCDEFG";
+
+            //当decNumber大于0的时候，进行进制转换
+            while(decNumber > 0) {
+
+                //获取余数
+                rem = ~~(decNumber % number);
+
+                //将余数放入栈中
+                remStack.push(rem);
+
+                //将decNumber重新赋值
+                decNumber = ~~(decNumber / number);
+            }
+
+            //当栈不为空的时候，赋值给baseString
+            while(!remStack.isEmpty()) {
+
+                //赋值给baseString
+                baseString += digits[remStack.pop()];
+            }
+
+            return baseString;
+        }
     </script>
 </body>
 </html>

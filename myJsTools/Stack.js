@@ -1,6 +1,6 @@
 ;(function(win, doc) {
     /**
-     * @description 新增栈类
+     * @description 栈类
      * @type ele 要添加的元素
      * @author slim。
      * @date 2017.08.14

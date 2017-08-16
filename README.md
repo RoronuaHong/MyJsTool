@@ -136,3 +136,12 @@ JavaScript工具库
 
 ### 17.实现十进制转换其他进制baseConverter:
     1.baseConverter(decNumber, number):
+
+### 16.实现队列Queue:
+    1.enqueue(ele): 添加元素
+    2.dequeue: 移除队首元素
+    3.front: 查看队首元素
+    4.isEmpty: 队列是否为空
+    5.size: 查看队列的大小
+    6.clear: 清空队列
+    7.print: 查看队列元素
