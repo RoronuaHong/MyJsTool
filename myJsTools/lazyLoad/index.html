@@ -610,14 +610,14 @@
     <!--</div>-->
     <div class="btn" id="btns">点击我</div>
     <script src="../CommonRegExp.js"></script>
-    <script src="../Queue.js"></script>
+    <script src="../PriorityQueue.js"></script>
     <script>
-        var queue = new Queue();
-        queue.enqueue("jack");
-        queue.enqueue("Lucy");
+        var priorityQueue = new PriorityQueue();
+        priorityQueue.enqueue("jack", 1);
+        priorityQueue.enqueue("lucy", 2);
+        priorityQueue.enqueue("KangKang", 0);
 
-        console.log(queue.front());
-        console.log(queue.size());
+        console.log(priorityQueue.print());
     </script>
 </body>
 </html>

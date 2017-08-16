@@ -145,3 +145,6 @@ JavaScript工具库
     5.size: 查看队列的大小
     6.clear: 清空队列
     7.print: 查看队列元素
+
+### 17.实现优先队列PriorityQueue:
+    1.enqueue(element, priority): 添加的元素 优先级
