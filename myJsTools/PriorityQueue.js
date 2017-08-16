@@ -12,29 +12,42 @@
         var items = [];
 
         //将参数赋值给当前对象
-        function QueueElement(element, priority) {
+        function QueueElement(element, priority, bool) {
             this.element = element;
             this.priority = priority;
+            this.bool = bool;
         }
 
         //添加元素
-        this.enqueue = function(element, priority) {
+        this.enqueue = function(element, priority, bool) {
             var queueElement = new QueueElement(element, priority);
             if(!!this.isEmpty()) {
                 items.push(queueElement);
             } else {
 
-                //设置判断priority是否比原来的大
+                //设置判断priority
                 var added = false;
-                for(var i = 0; i < items.length; i++) {
-                    if(queueElement.priority < items[i].priority) {
-                        items.splice(i, 0, queueElement);
-                        added = true;
-                        break;
+
+                if(!!queueElement.bool) {
+                    for(var i = 0; i < items.length; i++) {
+                        if(queueElement.priority < items[i].priority) {
+                            items.splice(i, 0, queueElement);
+                            added = true;
+                            break;
+                        }
+                    }
+                } else {
+                    for(var i = 0; i < items.length; i++) {
+                        if(queueElement.priority > items[i].priority) {
+                            items.splice(i, 0, queueElement);
+                            added = true;
+                            break;
+                        }
                     }
                 }
 
-                //如果priority比原来的大,直接添加
+
+                //added为false,直接添加
                 if(!added) {
                     items.push(queueElement);
                 }

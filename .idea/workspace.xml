@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b311616e-87a2-4a6c-92e7-ad2be50373e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" afterPath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/PriorityQueue.js" afterPath="$PROJECT_DIR$/myJsTools/PriorityQueue.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="PriorityQueue.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myJsTools/PriorityQueue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="626">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -81,8 +80,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="619" column="41" lean-forward="false" selection-start-line="619" selection-start-column="41" selection-end-line="619" selection-end-column="41" />
+            <state relative-caret-position="2413">
+              <caret line="619" column="43" lean-forward="true" selection-start-line="619" selection-start-column="43" selection-end-line="619" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -155,8 +154,8 @@
         <option value="$PROJECT_DIR$/myJsTools/Stack.js" />
         <option value="$PROJECT_DIR$/myJsTools/Queue.js" />
         <option value="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
-        <option value="$PROJECT_DIR$/myJsTools/PriorityQueue.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/myJsTools/PriorityQueue.js" />
       </list>
     </option>
   </component>
@@ -350,12 +349,12 @@
       <workItem from="1502676635625" duration="6916000" />
       <workItem from="1502704293814" duration="4983000" />
       <workItem from="1502758991534" duration="4253000" />
-      <workItem from="1502862798513" duration="3743000" />
+      <workItem from="1502862798513" duration="4836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71171000" />
+    <option name="totallyTimeSpent" value="72264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -738,26 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="619" column="41" lean-forward="false" selection-start-line="619" selection-start-column="41" selection-end-line="619" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myJsTools/EventUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/Queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -770,10 +753,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myJsTools/Queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="619" column="43" lean-forward="true" selection-start-line="619" selection-start-column="43" selection-end-line="619" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myJsTools/PriorityQueue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="626">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding />
         </state>
       </provider>
