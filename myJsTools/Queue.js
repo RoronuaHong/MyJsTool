@@ -41,7 +41,7 @@
 
         //打印队列数据
         this.print = function() {
-            console.log(items.toString());
+            console.log(items);
         }
     }
 

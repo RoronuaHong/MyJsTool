@@ -12,14 +12,13 @@
         var items = [];
 
         //将参数赋值给当前对象
-        function QueueElement(element, priority, bool) {
+        function QueueElement(element, priority) {
             this.element = element;
             this.priority = priority;
-            this.bool = bool;
         }
 
         //添加元素
-        this.enqueue = function(element, priority, bool) {
+        this.enqueue = function(element, priority, bools) {
             var queueElement = new QueueElement(element, priority);
             if(!!this.isEmpty()) {
                 items.push(queueElement);
@@ -28,7 +27,7 @@
                 //设置判断priority
                 var added = false;
 
-                if(!!queueElement.bool) {
+                if(!!bools) {
                     for(var i = 0; i < items.length; i++) {
                         if(queueElement.priority < items[i].priority) {
                             items.splice(i, 0, queueElement);
