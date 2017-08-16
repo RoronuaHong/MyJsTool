@@ -45,4 +45,15 @@
         }
     }
 
+    //判断是否为cmd、amd或window
+    if(typeof exports == "object") {
+        module.exports = Queue;
+    } else if(typeof define == "function" && define.amd) {
+        define([], function() {
+            return Queue;
+        });
+    } else {
+        window.Queue = Queue;
+    }
+
 })(window, document);
