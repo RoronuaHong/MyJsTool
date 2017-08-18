@@ -151,3 +151,6 @@ JavaScript工具库
      element: 添加的元素
      priority: 优先级
      bools: true 由小到大排序 false 由大到小排序
+
+### 18.实现链表LinkedList:
+    1.append(element): 添加元素
