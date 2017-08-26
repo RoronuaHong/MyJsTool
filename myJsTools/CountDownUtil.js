@@ -1,5 +1,4 @@
 ;(function(win, doc) {
-
     /**
      * @description 倒计时
      * @type {{init: init}}

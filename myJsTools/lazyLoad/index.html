@@ -609,34 +609,16 @@
         <!--</div>&lt;!&ndash;<br>&ndash;&gt;-->
     <!--</div>-->
     <div class="btn" id="btns">点击我</div>
-    <script src="../CommonRegExp.js"></script>
-    <script src="../Queue.js"></script>
+    <!--<script src="../CommonRegExp.js"></script>-->
+    <!--<script src="../Queue.js"></script>-->
+    <script src="../InstanceOf.js"></script>
     <script>
-        var arr = [1, 2, 3, 4, 5, 6, 7, 8];
-
-        //循环队列
-        function LoopQueue(arrList, num) {
-            var queue = new Queue();
-
-            //将数据传入队列中
-            for(var i = 0; i < arrList.length; i++) {
-                queue.enqueue(arrList[i]);
-            }
-
-            //当队列元素大于1的时候进行队列迭代
-            while(queue.size() > 1) {
-                for(var i = 0; i < num; i++) {
-                    queue.enqueue(queue.dequeue());
-                }
-
-                queue.dequeue();
-            }
-
-            //返回队首元素
-            return queue.dequeue();
+        function Person() {
+            this.name = "123";
         }
-
-        console.log(LoopQueue(arr, 1));
+        var person = new Person();
+        persons = 123;
+        console.log(InstanceOf.init(persons, Person))
     </script>
 </body>
 </html>

@@ -154,3 +154,8 @@ JavaScript工具库
 
 ### 18.实现链表LinkedList:
     1.append(element): 添加元素
+
+### 19.判断对象是否为函数实例InstanceOf:
+    1.init(object, constructor):
+     object: 实例对象
+     constructor: 构造函数
