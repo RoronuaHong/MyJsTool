@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b311616e-87a2-4a6c-92e7-ad2be50373e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/CountDownUtil.js" afterPath="$PROJECT_DIR$/myJsTools/CountDownUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/LinkedList.js" afterPath="$PROJECT_DIR$/myJsTools/LinkedList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" afterPath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
-    </list>
+    <list default="true" id="b311616e-87a2-4a6c-92e7-ad2be50373e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -71,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="111.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="111.html" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Desktop/111/111.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="477">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -86,36 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myJsTools/Ajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goods_pur.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/goods_pur.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="329" column="123" lean-forward="false" selection-start-line="329" selection-start-column="123" selection-end-line="329" selection-end-column="181" />
               <folding />
             </state>
           </provider>
@@ -197,12 +161,12 @@
         <option value="$USER_HOME$/Desktop/Wxshare.js" />
         <option value="$USER_HOME$/Desktop/togetherbuy_detail.html" />
         <option value="$USER_HOME$/Desktop/togetherbuy_pur.html" />
-        <option value="$USER_HOME$/Desktop/111/111.html" />
         <option value="$USER_HOME$/Desktop/missiondetail.js" />
         <option value="$PROJECT_DIR$/myJsTools/CountDownUtil.js" />
         <option value="$PROJECT_DIR$/myJsTools/InstanceOf.js" />
         <option value="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Desktop/111/111.html" />
       </list>
     </option>
   </component>
@@ -392,12 +356,12 @@
       <workItem from="1503393892401" duration="812000" />
       <workItem from="1503397750468" duration="24916000" />
       <workItem from="1503648281709" duration="1176000" />
-      <workItem from="1503752801375" duration="2204000" />
+      <workItem from="1503752801375" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136612000" />
+    <option name="totallyTimeSpent" value="138356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -655,14 +619,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/新建文件夹/togetherbuy_detail.html" />
-    <entry file="file://$PROJECT_DIR$/myJsTools/Promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
@@ -672,14 +628,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/togetherbuy_detail.html" />
-    <entry file="file://$USER_HOME$/Desktop/111/111.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/togetherbuyorder_detail.html" />
     <entry file="file://$USER_HOME$/Desktop/togetherbuy_pur.html" />
     <entry file="file://$USER_HOME$/Desktop/missiondetail.js" />
@@ -715,10 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/goods_pur.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="329" column="123" lean-forward="false" selection-start-line="329" selection-start-column="123" selection-end-line="329" selection-end-column="181" />
+        <state relative-caret-position="626">
+          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -731,10 +679,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/Desktop/goods_pur.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        <state relative-caret-position="757">
+          <caret line="329" column="123" lean-forward="false" selection-start-line="329" selection-start-column="123" selection-end-line="329" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myJsTools/Promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/111/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
       </provider>

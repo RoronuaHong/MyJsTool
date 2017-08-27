@@ -159,3 +159,7 @@ JavaScript工具库
     1.init(object, constructor):
      object: 实例对象
      constructor: 构造函数
+
+### 20.打印字功能TypeWriter:
+    1.init(ele):
+     ele: 元素id
