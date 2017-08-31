@@ -13,7 +13,7 @@
 
             for(var i = 0; i < imgList.length; i++) {
                 if(!!imgList[i].getAttribute("data-src")) {
-                    newimgList[i] = imgList[i];
+                    newimgList.push(imgList[i]);
                 }
             }
             return newimgList;
