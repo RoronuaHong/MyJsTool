@@ -1,4 +1,9 @@
 ;(function(win, doc) {
+    /**
+     * @description 循环队列
+     * @author slim。
+     * @date 2017.09.18
+     */
     var LoopQueue = function(arrList, num) {
         var queue = new Queue();
 
