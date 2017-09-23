@@ -620,17 +620,24 @@
     <!--<script src="../CommonRegExp.js"></script>-->
     <!--<script src="../Queue.js"></script>-->
     <!--<script src="../InstanceOf.js"></script>-->
-    <script src="../Sort.js"></script>
+    <script src="../TimestampUtil.js"></script>
     <script>
-        var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-        var newArr = Sort.remainedShuffle(arr);
-        console.log(newArr);
-//        function Person() {
-//            this.name = "123";
-//        }
-//        var person = new Person();
-//        persons = 123;
-//        console.log(InstanceOf.init(persons, Person))
+        console.log(TimestampUtil.lastTime(125479552, false));
+
+        function restTime(timers) {
+            this.obj = {};
+            timers = timers / 1000;
+
+            //转换时间
+            this.obj["day"] = Math.floor(timers / (3600 * 24));
+            this.obj["hours"] = Math.floor(timers % (3600 * 24) / 3600);
+            this.obj["minutes"] = Math.floor(timers % (3600 * 24) % 3600 / 60);
+            this.obj["second"] = Math.floor(timers % (3600 * 24 * 3600) % 60);
+
+            return this.obj;
+        }
+
+        console.log(restTime(125479552));
     </script>
 </body>
 </html>

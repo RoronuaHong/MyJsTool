@@ -2,7 +2,7 @@
 
     /**
      * @author slim。
-     * @date 2017.07.12
+     * @date 2017.09.23
      * @type {{getAll: getAll, get: get}}
      */
     var TimestampUtil = {
@@ -60,17 +60,42 @@
         },
         get: function(timers) {
             this.timers = new Date(timers);
-            this.obj = {};
 
             //转换时间
-            this.obj["year"] = this.timers.getFullYear();
-            this.obj["month"] = this.timers.getMonth() + 1;
-            this.obj["date"] = this.timers.getDate();
-            this.obj["hours"] = this.timers.getHours();
-            this.obj["minutes"] = this.timers.getMinutes();
-            this.obj["second"] = this.timers.getSeconds();
+            return {
+                year: this.timers.getFullYear(),
+                month: this.timers.getMonth() + 1,
+                date: this.timers.getDate(),
+                hours: this.timers.getHours(),
+                minutes: this.timers.getMinutes(),
+                second: this.timers.getSeconds()
+            }
 
-            return this.obj;
+        },
+        /*计算剩余年月日时分秒*/
+        lastTime: function(timers, booleans) {
+            this.timers = timers;
+
+            //判断传入的是否为秒或毫秒
+            if(!booleans) {
+                this.timers = this.timers / 1000;
+            }
+
+            this.year = ~~((this.timers / 60 / 60 / 24 / 12 / 365) % 365);
+            this.month = ~~(this.timers / 60 / 60 / 24 / 12) % 12;
+            this.date = ~~(this.timers / 60 / 60 / 24);
+            this.hours = ~~((this.timers / 60 / 60) % 24);
+            this.minutes = ~~((this.timers / 60) % 60);
+            this.second = ~~(this.timers % 60);
+
+            return {
+                year: this.year,
+                month: this.month,
+                date: this.date,
+                hours: this.hours,
+                minutes: this.minutes,
+                second: this.second
+            };
         }
     }
 

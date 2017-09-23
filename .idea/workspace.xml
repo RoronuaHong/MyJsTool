@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b311616e-87a2-4a6c-92e7-ad2be50373e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/LoopQueue.js" afterPath="$PROJECT_DIR$/myJsTools/LoopQueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/TimestampUtil.js" afterPath="$PROJECT_DIR$/myJsTools/TimestampUtil.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" afterPath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -32,8 +33,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="626" column="28" lean-forward="true" selection-start-line="626" selection-start-column="28" selection-end-line="626" selection-end-column="28" />
+            <state relative-caret-position="721">
+              <caret line="639" column="38" lean-forward="false" selection-start-line="639" selection-start-column="38" selection-end-line="639" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -49,51 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sort.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myJsTools/sort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="111.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/111/111.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="94" column="35" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pc_lucky_draw.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/pc_lucky_draw.html">
+      <file leaf-file-name="TimestampUtil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/结算/checkout.html">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="768" column="0" lean-forward="false" selection-start-line="768" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkouts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/结算/checkouts.js">
+      <file leaf-file-name="TypeWriter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myJsTools/TypeWriter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="321" column="31" lean-forward="true" selection-start-line="321" selection-start-column="31" selection-end-line="321" selection-end-column="31" />
+            <state relative-caret-position="1116">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -111,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mygroupdetail</find>
       <find>themes/default</find>
       <find>themes/default/css</find>
       <find>themes/default/js</find>
@@ -134,13 +124,14 @@
       <find>action=createGroup&amp;ajax=yes</find>
       <find>type=together_buy</find>
       <find>七月</find>
-      <find>paymentorder</find>
       <find>greenpoints</find>
       <find>data.orderPrice</find>
       <find>ShowPointAjax</find>
       <find>data.orderPrice)</find>
       <find>green_consume_dikou</find>
       <find>=cancleGreenPointConsume</find>
+      <find>paymentorder</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace>doc</replace>
@@ -182,14 +173,18 @@
         <option value="$USER_HOME$/Desktop/missiondetail.js" />
         <option value="$PROJECT_DIR$/myJsTools/CountDownUtil.js" />
         <option value="$PROJECT_DIR$/myJsTools/InstanceOf.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/myJsTools/bind.js" />
         <option value="$USER_HOME$/Desktop/pc_lucky_draw.html" />
         <option value="$USER_HOME$/Desktop/结算/checkout.html" />
         <option value="$PROJECT_DIR$/myJsTools/LoopQueue.js" />
-        <option value="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
-        <option value="$USER_HOME$/Desktop/111/111.html" />
         <option value="$PROJECT_DIR$/myJsTools/sort.js" />
+        <option value="$USER_HOME$/Desktop/拼团新/old/togetherbuy_list.html" />
+        <option value="$USER_HOME$/Desktop/拼团新/old/together_buy.html" />
+        <option value="$USER_HOME$/Desktop/拼团新/new/together_buy.html" />
+        <option value="$USER_HOME$/Desktop/111/111.html" />
+        <option value="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
+        <option value="$PROJECT_DIR$/myJsTools/TimestampUtil.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -266,7 +261,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/111/111.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -397,17 +392,19 @@
       <workItem from="1505272478689" duration="2729000" />
       <workItem from="1505626875155" duration="7618000" />
       <workItem from="1505701301701" duration="3000" />
-      <workItem from="1505701309719" duration="9580000" />
+      <workItem from="1505701309719" duration="17965000" />
+      <workItem from="1506081290212" duration="4335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158286000" />
+    <option name="totallyTimeSpent" value="171006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1459431" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1459431" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -454,42 +451,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/JSONP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/JSONP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/ajax/demo.html" />
-    <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myJsTools/JSONP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -591,14 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -620,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,15 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2952">
           <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/TypeWriter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,23 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/pc_lucky_draw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/结算/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="768" column="0" lean-forward="false" selection-start-line="768" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +609,7 @@
     <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -691,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,14 +625,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="115" column="32" lean-forward="false" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/结算/checkouts.js" />
+    <entry file="file://$PROJECT_DIR$/myJsTools/sort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/pc_lucky_draw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/结算/checkout.html" />
+    <entry file="file://$USER_HOME$/Desktop/拼团新/togetherbuy_list.html" />
+    <entry file="file://$USER_HOME$/Desktop/拼团新/old/together_buy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/拼团新/new/together_buy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/结算/checkouts.js">
+    <entry file="file://$USER_HOME$/Desktop/拼团新/old/togetherbuy_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="321" column="31" lean-forward="true" selection-start-line="321" selection-start-column="31" selection-end-line="321" selection-end-column="31" />
+        <state relative-caret-position="333">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myJsTools/TypeWriter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/111/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -719,26 +692,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/111/111.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="94" column="35" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myJsTools/lazyLoad/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="626" column="28" lean-forward="true" selection-start-line="626" selection-start-column="28" selection-end-line="626" selection-end-column="28" />
+        <state relative-caret-position="721">
+          <caret line="639" column="38" lean-forward="false" selection-start-line="639" selection-start-column="38" selection-end-line="639" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/sort.js">
+    <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="216">
+          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding />
         </state>
       </provider>

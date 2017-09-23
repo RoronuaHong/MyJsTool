@@ -66,7 +66,10 @@ JavaScript工具库
             typeofs: ""                 //默认为全部输出，可选"date"和"year"
         });
 
-        2.get(timer):获取年月日时分秒
+        2.get(timer): 获取年月日时分秒
+        3.lastTime(timer, boolean):
+            1.timer: 倒计时的秒数
+            2.boolean: true为秒数, false为毫秒数
 
 ### 11.请求数据Ajax:
         1.Ajax({
