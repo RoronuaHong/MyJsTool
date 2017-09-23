@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b311616e-87a2-4a6c-92e7-ad2be50373e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/TimestampUtil.js" afterPath="$PROJECT_DIR$/myJsTools/TimestampUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" afterPath="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,21 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimestampUtil.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TimestampUtil.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="16" />
+            <state relative-caret-position="468">
+              <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="1062">
+              <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -183,8 +180,8 @@
         <option value="$USER_HOME$/Desktop/拼团新/new/together_buy.html" />
         <option value="$USER_HOME$/Desktop/111/111.html" />
         <option value="$PROJECT_DIR$/myJsTools/lazyLoad/index.html" />
-        <option value="$PROJECT_DIR$/myJsTools/TimestampUtil.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/myJsTools/TimestampUtil.js" />
       </list>
     </option>
   </component>
@@ -393,12 +390,12 @@
       <workItem from="1505626875155" duration="7618000" />
       <workItem from="1505701301701" duration="3000" />
       <workItem from="1505701309719" duration="17965000" />
-      <workItem from="1506081290212" duration="4335000" />
+      <workItem from="1506081290212" duration="4780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171006000" />
+    <option name="totallyTimeSpent" value="171451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -700,18 +697,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="75" column="16" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="16" />
+        <state relative-caret-position="1062">
+          <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/myJsTools/TimestampUtil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="468">
+          <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
           <folding />
         </state>
       </provider>

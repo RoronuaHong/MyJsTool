@@ -81,16 +81,12 @@
                 this.timers = this.timers / 1000;
             }
 
-            this.year = ~~((this.timers / 60 / 60 / 24 / 12 / 365) % 365);
-            this.month = ~~(this.timers / 60 / 60 / 24 / 12) % 12;
             this.date = ~~(this.timers / 60 / 60 / 24);
             this.hours = ~~((this.timers / 60 / 60) % 24);
             this.minutes = ~~((this.timers / 60) % 60);
             this.second = ~~(this.timers % 60);
 
             return {
-                year: this.year,
-                month: this.month,
                 date: this.date,
                 hours: this.hours,
                 minutes: this.minutes,
