@@ -166,3 +166,13 @@ JavaScript工具库
 ### 20.打印字功能TypeWriter:
     1.init(ele):
      ele: 元素id
+
+### 21.数组与数组元素的对比ArrayFunc:
+    1.arrayEqual(oldarr, newarr):
+        判断数组是否全等
+    2.arrayItemEqual(oldarr, newarr):
+        两个数字数组的元素是否相等
+    3.arrayInclude(oldarr, newarr):
+        数组2是否是数组1的子集
+    4.findPublicItem(oldarr, newarr):
+        找到两个数组的公共元素
