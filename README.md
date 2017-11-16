@@ -173,6 +173,6 @@ JavaScript工具库
     2.arrayItemEqual(oldarr, newarr):
         两个数字数组的元素是否相等
     3.arrayInclude(oldarr, newarr):
-        数组2是否是数组1的子集
+        newarr是否是oldarr的子集
     4.findPublicItem(oldarr, newarr):
         找到两个数组的公共元素
