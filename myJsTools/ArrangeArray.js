@@ -6,10 +6,11 @@
             (function fn(arrs, result) {
                 if(arrs.length == 0) {
                     results.push(result);
-                } else {
-                    for(var i = 0; i < arrs.length; i++) {
-                        fn(arrs.slice(0, i).concat(arrs.slice(i + 1)), result.concat(arrs[i]));
-                    }
+                    return;
+                }
+
+                for(var i = 0; i < arrs.length; i++) {
+                    fn(arrs.slice(0, i).concat(arrs.slice(i + 1)), result.concat(arrs[i]));
                 }
             })(arr, []);
 
