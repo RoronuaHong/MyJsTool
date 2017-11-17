@@ -176,3 +176,6 @@ JavaScript工具库
         newarr是否是oldarr的子集
     4.findPublicItem(oldarr, newarr):
         找到两个数组的公共元素
+
+### 22.排列算法ArrangeArray(arr):
+        将数组进行排列

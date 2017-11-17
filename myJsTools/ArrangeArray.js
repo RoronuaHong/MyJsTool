@@ -1,4 +1,9 @@
 ;(function(win, doc) {
+    /**
+     * @description 实现排列功能
+     * @author slim。
+     * @date 2017.11.17
+     **/
     var ArrangeArray = function(arr) {
         function arrange(arr) {
             var results = [];
