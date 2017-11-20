@@ -63,8 +63,6 @@
 
             //开启连接,添加参数
             xhr.open(defaults.type, defaults.url + defaults.data, defaults.async);
-
-
             xhr.send(null);
         }
 

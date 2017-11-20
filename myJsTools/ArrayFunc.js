@@ -4,15 +4,11 @@
      * @author slim。
      * @date 2017.11.16
      */
-    var ArrayFunc = (function(oldarr, newarr) {
+    var ArrayFunc = (function() {
         return {
             /*判断数组是否全等*/
             arrayEqual: function(oldarr, newarr) {
                 if(Array.isArray(oldarr) && Array.isArray(newarr)) {
-                    if(oldarr === newarr) {
-                        return true;
-                    }
-
                     if(oldarr.length !== newarr.length) {
                         return false;
                     }
