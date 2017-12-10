@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .content {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="btn">
+    <button class="btns">Mutation</button>
+    <div class="content"></div>
+    <script src="./MakeTemplate.js"></script>
+    <script>
+        const btn = document.querySelector(".btn"),
+            btns = document.querySelector(".btns"),
+            content = document.querySelector(".content"),
+
+            //需要换行的字段
+            arrays = ["；", "。", "："],
+
+            //需要改变颜色的字段
+            colorArray = ["90日", "按以下三项的较大者"],
+            colors = "#f00";
+
+        btns.addEventListener("click", function() {
+            makeTemplate(btn.value.replace(/\s+/g, ""), arrays, ".content", "span", colorArray, colors);
+        }, false);
+    </script>
+</body>
+</html>

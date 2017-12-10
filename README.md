@@ -179,3 +179,11 @@ JavaScript工具库
 
 ### 22.排列算法ArrangeArray(arr):
         将数组或字符串进行排列
+
+### 23.输出定义模板MakeTemplate:
+    1.text: 输入文本
+    2.arrays: 需要换行的字段
+    3.clas: 输出的标签的类名
+    4.label: 添加的标签
+    5.colorArray: 需要改变颜色的字段
+    6.colors: 颜色

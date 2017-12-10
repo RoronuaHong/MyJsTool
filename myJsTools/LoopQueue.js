@@ -33,7 +33,7 @@
     } else if(typeof define == "function" && define.amd) {
         define([], function() {
             return LoopQueue;
-        })
+        });
     } else {
         win.LoopQueue = LoopQueue;
     }
